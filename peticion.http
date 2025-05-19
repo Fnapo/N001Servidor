@@ -1,0 +1,17 @@
+PUT  http://localhost:8081 HTTP/1.1
+
+###
+
+get  http://localhost:8081 HTTP/1.1
+
+###
+
+get  http://localhost:8081/cursos HTTP/1.1
+
+###
+
+post   http://localhost:8081/cursos HTTP/1.1
+
+{
+    "titulo":"Aprende C#"
+}
